@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlorivaGlow💄 Skincare & Makeup Products</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <header class="relative bg-pink-100 overflow-hidden">
+    <header class="relative h-[100vh] overflow-hidden">
+      <div class="absolute inset-0">
+        <video
+          class="object-cover w-full h-full"
+          autoplay
+          loop
+          muted
+          src="Cosmetics.mp4"
+        ></video>
+      </div>
+    
+      <div class="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8 text-center relative z-10 h-full flex flex-col justify-center items-center">
+        <h1 class="text-5xl font-bold text-white mb-4 animate-fade-in-up">
+          Discover Your Inner Beauty
+        </h1>
+        <p class="text-xl text-white mb-8 animate-fade-in-up delay-100">
+          Shop our curated collection of premium makeup products.
+        </p>
+       <!-- Shop Now & Search Bar Side-by-Side -->
+    <div class="flex items-center justify-center gap-4 flex-wrap animate-fade-in-up delay-200">
+      <!-- Shop Now Button -->
+      <a
+        href="#"
+        class="bg-pink-500 text-white px-6 py-3 rounded-lg hover:bg-pink-600 transition duration-300 text-sm md:text-base"
+      >
+        Shop Now
+      </a>
+
+      <!-- Search Bar -->
+      <div class="flex items-center gap-2 bg-white/80 p-2 rounded-full backdrop-blur-md">
+        <input
+          type="search"
+          placeholder="Search Products"
+          class="w-40 sm:w-48 px-3 py-1.5 rounded-full focus:outline-none focus:ring-2 focus:ring-pink-400 text-black text-sm"
+        />
+        <button class="text-pink-600 p-2 rounded-full hover:bg-pink-100 transition duration-300">
+          <ion-icon name="search-outline" size="small"></ion-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Ionicons Script -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+      </div>
+    </header>
+    
+  
+
+  <!-- 🌟 Navbar -->
+<nav class="bg-pink-500 bg-opacity-100 text-white py-4 fixed top-0 left-0 w-full z-20 shadow-mb">
+  <div class="container mx-auto px-6 flex justify-between items-center">
+    <!-- Logo and Brand Name -->
+    <a href="#" class="flex items-center space-x-2">
+      <img src="./images/logo.jpg" alt="Glamora Logo" class="h-10 w-auto object-contain">
+      <span class="text-2xl font-bold">GlorivaGlow</span>
+    </a>
+
+
+
+    <!-- Desktop Navigation Links -->
+    <div class="hidden md:flex space-x-8">
+      <a href="#skincare" class="hover:text-pink-200">Skincare</a>
+      <a href="#makeup" class="hover:text-pink-200">Makeup</a>
+      <a href="#haircare" class="hover:text-pink-200">Haircare</a>
+      <a href="#contact" class="hover:text-pink-200">Contact</a>
+      <a href="#login" class="hover:text-pink-200">Login</a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button id="menu-toggle" class="md:hidden focus:outline-none">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile Navigation Links -->
+  <div id="mobile-menu" class="md:hidden px-6 mt-4 space-y-4 hidden">
+    <a href="#skincare" class="block hover:text-pink-200">Skincare</a>
+    <a href="#makeup" class="block hover:text-pink-200">Makeup</a>
+    <a href="#haircare" class="block hover:text-pink-200">Haircare</a>
+    <a href="#contact" class="block hover:text-pink-200">Contact</a>
+    <a href="#login" class="block hover:text-pink-200">Login</a>
+  </div>
+</nav>
+
+    <!-- Section Style -->
+  <style>
+    .glass {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+  </style>
+  
+  <!-- Skincare Section -->
+<section id="skincare" class="py-20">
+  <div class="container mx-auto px-6 glass rounded-2xl p-10 shadow-lg">
+    <h2 class="text-4xl font-bold text-center text-pink-600 mb-6">Skincare</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/product-06.jpg" alt="Glow Serum" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Glow Serum</h3>
+        <p class="text-black">Brightens and evens out skin tone.</p>
+        <p class="text-pink-800 font-bold mt-2">৳1850</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/product-05.jpg" alt="Night Repair Cream" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Night Repair Cream</h3>
+        <p class="text-black">Rejuvenates skin overnight.</p>
+        <p class="text-pink-800 font-bold mt-2">৳1,050</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/product-03.jpg" alt="Face Cleanser" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Face Cleanser</h3>
+        <p class="text-black">Gentle cleansing for radiant skin.</p>
+        <p class="text-pink-800 font-bold mt-2">৳999</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Haircare Section -->
+<section id="haircare" class="py-20">
+  <div class="container mx-auto px-6 glass rounded-2xl p-10 shadow-lg">
+    <h2 class="text-4xl font-bold text-center text-pink-600 mb-6">Haircare</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/product-01.jpg" alt="Keratin Shampoo" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Keratin Shampoo</h3>
+        <p class="text-black">Smooth and strong hair everyday.</p>
+        <p class="text-pink-800 font-bold mt-2">৳2250</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/product-08.jpg" alt="Hair Mask" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Hair Mask</h3>
+        <p class="text-black">Deep conditioning for dry hair.</p>
+        <p class="text-pink-800 font-bold mt-2">৳1,070</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/product-10.jpg" alt="Hair Oil" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Hair Oil</h3>
+        <p class="text-black">Natural nourishment for your scalp.</p>
+        <p class="text-pink-800 font-bold mt-2">৳1,200</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Makeup Section -->
+<section id="makeup" class="py-20">
+  <div class="container mx-auto px-6 glass rounded-2xl p-10 shadow-lg">
+    <h2 class="text-4xl font-bold text-center text-pink-600 mb-6">Makeup</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/foundation.jpg" alt="Foundation " class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Foundation </h3>
+        <p class="text-black">Perfect base for all-day wear.</p>
+        <p class="text-pink-800 font-bold mt-2">৳1750</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/blush.jpg" alt="Eyeshadow Palette" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Eyeshadow Palette</h3>
+        <p class="text-black">Glow up your cheeks naturally.</p>
+        <p class="text-pink-800 font-bold mt-2">৳880</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/mascara.jpg" alt="Mascara" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Waterproof Mascara</h3>
+        <p class="text-black">Lift and volumize your lashes.</p>
+        <p class="text-pink-800 font-bold mt-2">৳1,120</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bodycare Section -->
+<section class="py-20">
+  <div class="container mx-auto px-6 glass rounded-2xl p-10 shadow-lg">
+    <h2 class="text-4xl font-bold text-center text-pink-600 mb-6">Bodycare</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/scrub.jpg" alt="Body Scrub" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-4xl font-bold text-center text-pink-600 mb-6">Body Scrub</h3>
+        <p class="text-black">Exfoliates and refreshes your skin.</p>
+        <p class="text-pink-800 font-bold mt-2">৳1,690</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/lotion.jpg" alt="Moisturizing Lotion" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Moisturizing Lotion</h3>
+        <p class="text-black">Keeps skin soft and hydrated.</p>
+        <p class="text-pink-800 font-bold mt-2">৳880</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+      <div class="p-6 rounded-lg shadow text-center bg-white">
+        <img src="images/cream.jpg" alt="Foot Cream" class="w-full h-64 object-cover rounded-xl mb-4 hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold text-black">Foot Cream</h3>
+        <p class="text-black">Repairs cracked heels gently.</p>
+        <p class="text-pink-800 font-bold mt-2">৳750</p>
+        <button class="mt-4 bg-pink-800 text-white font-bold py-2 px-6 rounded-full shadow-md hover:bg-white hover:text-pink-800 transition duration-300">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Under ৳2000 Section -->
+<section class="py-8 px-6 bg-transparent">
+  <div class="bg-white/20 backdrop-blur-lg rounded-2xl p-8 shadow-lg">
+    <div class="flex justify-between items-center mb-6">
+      <h2 class="text-xl font-semibold">Under ৳2000</h2>
+      <a href="#" class="text-sm text-bold-pink-900 hover:underline">Shop All Products &rarr;</a>
+    </div>
+
+    <!-- Responsive Grid Layout -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+      <!-- Product 1 -->
+      <div class="text-center">
+        <img src="images/product-01.jpg" alt="Hydrating Facial Toner" class="mx-auto mb-2 rounded-lg">
+        <p class="text-sm font-semibold">৳1699</p>
+        <p class="text-sm">Hydrating Facial Toner</p>
+        <p class="text-xs text-pink-500">★★★★★</p>
+        <button class="mt-2 bg-pink-600 text-white border border-pink-500 px-4 py-1 rounded-full text-sm font-medium hover:bg-white hover:text-pink-600 transition">
+          Add to Cart
+        </button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="text-center">
+        <img src="images/product-02.jpg" alt="Green Tea Cleansing Scrub" class="mx-auto mb-2 rounded-lg">
+        <p class="text-sm font-semibold">৳1299</p>
+        <p class="text-sm">Glowing and Hydrating Serum</p>
+        <p class="text-xs text-pink-500">★★★★☆</p>
+        <button class="mt-2 bg-pink-600 text-white border border-pink-500 px-4 py-1 rounded-full text-sm font-medium hover:bg-white hover:text-pink-600 transition">
+          Add to Cart
+        </button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="text-center">
+        <img src="images/product-03.jpg" alt="Foaming Facial Cleanser" class="mx-auto mb-2 rounded-lg">
+        <p class="text-sm font-semibold">৳1190</p>
+        <p class="text-sm">Foaming Facial Cleanser</p>
+        <p class="text-xs text-pink-500">★★★★★</p>
+        <button class="mt-2 bg-pink-600 text-white border border-pink-500 px-4 py-1 rounded-full text-sm font-medium hover:bg-white hover:text-pink-600 transition">
+          Add to Cart
+        </button>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="text-center">
+        <img src="images/product-11.jpg" alt="Glow Boosting Serum" class="mx-auto mb-2 rounded-lg">
+        <p class="text-sm font-semibold">৳1599</p>
+        <p class="text-sm">Glow Boosting Serum</p>
+        <p class="text-xs text-pink-500">★★★★★</p>
+        <button class="mt-2 bg-pink-600 text-white border border-pink-500 px-4 py-1 rounded-full text-sm font-medium hover:bg-white hover:text-pink-600 transition">
+          Add to Cart
+        </button>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="text-center">
+        <img src="images/product-17.jpg" alt="Vitamin E Body Oil" class="mx-auto mb-2 rounded-lg">
+        <p class="text-sm font-semibold">৳1099</p>
+        <p class="text-sm">Vitamin E Body Oil</p>
+        <p class="text-xs text-pink-500">★★★★★</p>
+        <button class="mt-2 bg-pink-600 text-white border border-pink-500 px-4 py-1 rounded-full text-sm font-medium hover:bg-white hover:text-pink-600 transition">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Autumn Skincare Section -->
+<section class="py-16 md:py-24">
+  <div class="container mx-auto px-4 sm:px-6">
+    <div class="relative glass rounded-3xl p-8 md:p-12 text-center max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold text-center text-pink-600 mb-6">Autumn Skincare Essentials</h2>
+      <p class="text-white text-sm md:text-lg max-w-2xl mx-auto mb-8 md:mb-12">
+        Hydration, glow, and comfort—perfectly tailored for autumn weather.
+      </p>
+
+      <!-- Banner with Professional Design -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 px-6 mb-12">
+        <!-- Text and Banner Image -->
+        <div class="relative sm:col-span-2 md:col-span-1">
+          <img src="images/hero-banner-1.jpg" alt="Autumn Skincare" class="w-full h-full object-cover rounded-lg shadow-lg">
+          <div class="absolute top-1/2 left-6 transform -translate-y-1/2 text-left text-white sm:left-8 md:left-12">
+            
+            <button class="bg-pink-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-pink-700 transition-all">
+              25% Off Everything
+            </button>
+          </div>
+        </div>
+      
+        <!-- Secondary Image -->
+        <div>
+          <img src="images/blog-1.jpg" alt="25% Off" class="w-full h-full object-cover rounded-lg shadow-md">
+        </div>
+      </div>
+      
+      <!-- Explore Button -->
+      <button class="mt-8 bg-pink-600 text-white hover:text-pink-600 hover:bg-white px-8 py-3 rounded-xl font-medium text-sm md:text-base transition-all duration-300 border border-pink-600">
+        Explore Collection
+      </button>
+      
+    </div>
+  </div>
+</section>
+
+<!-- 🌟 Customer Reviews Section -->
+<section class="py-20 bg-transperant-50">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="  text-4xl font-bold text-center text-pink-600 mb-6">What Our Customers Say</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <!-- Review Card -->
+      <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 text-center">
+        <div class="flex flex-col items-center">
+          <img src="./images/c1.jpg" alt="Customer 1" class="w-24 h-24 rounded-full shadow-md object-cover mb-2">
+          <h3 class="text-lg font-semibold text-gray-800 mb-3">Waziha Jannat</h3>
+        </div>
+        <p class="text-gray-600 mb-5">"Glamour Beauty has transformed my skincare routine. Highly recommended"</p>
+        <div class="flex justify-center gap-1 text-yellow-400 text-xl">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+        </div>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 text-center">
+        <div class="flex flex-col items-center">
+          <img src="./images/c2.jpg" alt="Customer 2" class="w-24 h-24 rounded-full shadow-md object-cover mb-2">
+          <h3 class="text-lg font-semibold text-gray-800 mb-3">Zarin Tasneem</h3>
+        </div>
+        <p class="text-gray-600 mb-5">"The makeup products are amazing and long-lasting. Love it"</p>
+        <div class="flex justify-center gap-1 text-yellow-400 text-xl">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+        </div>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 text-center">
+        <div class="flex flex-col items-center">
+          <img src="./images/c3.jpg" alt="Customer 3" class="w-24 h-24 rounded-full shadow-md object-cover mb-2">
+          <h3 class="text-lg font-semibold text-gray-800 mb-3">Marufa Jerin</h3>
+        </div>
+        <p class="text-gray-600 mb-5">"Great customer service and fast delivery. Will shop again"</p>
+        <div class="flex justify-center gap-1 text-yellow-400 text-xl">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-20 px-4 max-w-4xl mx-auto text-center">
+  <h1 class="text-4xl font-bold text-pink-600 mb-6">About GlorivaGlow</h1>
+  <p class="text-gray-700 text-lg">
+    At GlorivaGlow, we believe that beauty is an expression of self-love and confidence. Our goal is to empower individuals by providing high-quality, cruelty-free makeup products that celebrate uniqueness. From bold lips to subtle foundations, our products are crafted with care to suit every skin type and tone.
+  </p>
+  <div class="mt-10">
+    <img src="images/professional.jpg" alt="Our Mission" class="rounded-lg mx-auto shadow-lg">
+  </div>
+</section>
+
+<section id="contact" class="py-20 px-4 max-w-4xl mx-auto">
+  <h1 class="text-4xl font-bold text-center text-pink-600 mb-6">Get in Touch</h1>
+  <form class="bg-pink-50 p-8 rounded-lg shadow-lg space-y-6">
+    <input type="text" placeholder="Your Name" class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-400">
+    <input type="email" placeholder="Your Email" class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-400">
+    <textarea placeholder="Your Message" rows="6" class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-400"></textarea>
+    <button type="submit" class="w-full bg-pink-500 text-white py-2 rounded hover:bg-pink-600 transition duration-300">Send Message</button>
+  </form>
+</section>
+
+<!-- Contact Form Section -->
+
+
+<!-- ✅ Lucide Icons CDN (Put in <head> if not already) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- ✅ Updated Footer -->
+  <footer id="contact" class="bg-pink-500 bg-opacity-100 text-white py-10 relative z-10">
+    <div class="container mx-auto px-6 text-center">
+      <p class="text-lg font-medium">&copy; 2025 GlorivaGlow. All rights reserved.</p>
+    
+      <div class="mt-6 flex justify-center space-x-6">
+        <a href="#" aria-label="Instagram" class="hover:text-pink-300">
+          <i data-lucide="instagram" class="w-6 h-6"></i>
+        </a>
+        <a href="#" aria-label="Facebook" class="hover:text-pink-300">
+          <i data-lucide="facebook" class="w-6 h-6"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/waziha0210" aria-label="linkedIN" class="hover:text-pink-300">
+          <i data-lucide="linkedIN" class="w-6 h-6"></i>
+        </a>
+        <a href="#" aria-label="YouTube" class="hover:text-pink-300">
+          <i data-lucide="youtube" class="w-6 h-6"></i>
+        </a>
+        
+      </div>
+    </div>
+  
+    <br></br>
+    <!-- Image positioned at the bottom-right corner -->
+    <div class="absolute bottom-4 right-4">
+      <img src="images/pay.png" alt="Footer Image">
+    </div>
+  </footer>
+  
+  <!-- ✅ Script to Toggle Mobile Menu -->
+  <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+  
+    toggleBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  
+    // ✅ Initialize Lucide Icons
+    lucide.createIcons();
+  </script>
+  
+
+</body>
+</html>
